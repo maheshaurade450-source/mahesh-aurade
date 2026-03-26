@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+header {
+    background: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("https://source.unsplash.com/1600x900/?restaurant,food") no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Button */
+.btn {
+    background: orange;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Menu Cards */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #222;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Form */
+.form input, .form select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Gallery */
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.owner {
+    margin-top: 10px;
+    font-size: 18px;
+    color: yellow;
+}
